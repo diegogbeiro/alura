@@ -75,6 +75,8 @@ body{
     border-radius: 8px;
     border: none;
     outline: none;
+    cursor: pointer;
+    transition: .4s;
 }
 
 .button2{
@@ -88,6 +90,16 @@ body{
     border: 1px solid white;
     outline: none;
     background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.button1:hover{
+    scale: 1.04;
+}
+
+.button2:hover{
+    scale: 1.04;
 }
 
 .psec1{
