@@ -19,6 +19,119 @@ body{
     background-image: url("imagens/imagem\ 1.png");
     background-position: 50% 50%;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    
 }
 
+.conteudosec1{
+    width: 588px;
+    height: 431px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 125px 0 124px 54px;
+}
 
+.h1sec1{
+    width: 588px;
+    height: 102px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 22px;
+}
+
+.combo{
+    width: 348px;
+    height: 100px;
+    padding-bottom: 54px;
+}
+
+#combo{
+    width: 348px;
+    height: auto;
+}
+
+.button{
+    width: 512px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.button1{
+    width: 512px;
+    height: 56px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: #167BF7;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.button2{
+    width: 512px;
+    height: 56px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: #167bf700;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 8px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.button1:hover, .button2:hover{
+    scale: 1.2;
+}
+
+.psec1{
+    width: 380px;
+    height: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #C0C0C0;
+}
+
+@media(max-width:1280px){
+    .sec1{
+        height: 600px;
+    }
+
+    .conteudosec1{
+        width: 500px;
+    }
+
+    .h1sec1{
+        width: 500px;
+        font-size: 24px;
+        padding-bottom: 4px;
+    }
+
+    .combo{
+        padding-bottom: 32px;
+    }
+
+    .button, .button1, .button2{
+        width:500px;
+    }
+}
