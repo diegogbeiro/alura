@@ -13,8 +13,14 @@ body{
     background-color: #00030c;
 }
 
+main{
+    width: 1440px;
+    align-items: center;
+    margin: 0 auto;
+}
+
 .sec1{
-    width: 100%;
+    width: 1440px;
     height: 680px;
     background-image: url("imagens/imagem\ 1.png");
     background-position: 50% 50%;
@@ -112,26 +118,8 @@ body{
     color: #C0C0C0;
 }
 
-@media(max-width:1280px){
+@media(min-width: 1440px){
     .sec1{
-        height: 600px;
-    }
-
-    .conteudosec1{
-        width: 500px;
-    }
-
-    .h1sec1{
-        width: 500px;
-        font-size: 24px;
-        padding-bottom: 4px;
-    }
-
-    .combo{
-        padding-bottom: 32px;
-    }
-
-    .button, .button1, .button2{
-        width:500px;
+        width: 1440px;
     }
 }
