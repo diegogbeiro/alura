@@ -29,6 +29,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    margin-left: 54px;
     
 }
 
@@ -111,3 +112,5 @@ body{
     color: #FFFFFF;
     margin-top: 10px;
 }
+
+
